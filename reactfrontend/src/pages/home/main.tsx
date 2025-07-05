@@ -1,4 +1,3 @@
-import NavBar from "@/components/layouts/navbar";
 import heroimage from "../../assets/front-view-woman-kids-spending-time-home.png";
 import { FiWifi, FiSmartphone, FiShield, FiUsers } from "react-icons/fi";
 import enjoyingwifi from "../../assets/happy-man-using-his-tablet-home-couch(1).jpg";
@@ -6,14 +5,12 @@ import support from "../../assets/247 support.jpg";
 import connectivity from "../../assets/businessman-looking-tablet(1).jpg";
 import installation from "../../assets/young-black-woman-pulling-out-lan-cable-from-modem(1).jpg";
 import { motion } from "framer-motion";
-
 import InternetPlansSection from "./HomepagePlans";
-import Footer from "@/components/layouts/footer";
+
 function HomePage() {
   return (
     <>
     <div className="bg-[#9241C5] min-h-screen text-white">
-      <NavBar />
 
       <section className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 px-6 py-20 items-center">
         <div>
@@ -110,7 +107,6 @@ function HomePage() {
       </section>
       <InternetPlansSection/>
     </div>
-    <Footer/>
     </>
   );
 }
