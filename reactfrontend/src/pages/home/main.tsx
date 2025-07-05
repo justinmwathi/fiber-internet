@@ -8,12 +8,13 @@ import installation from "../../assets/young-black-woman-pulling-out-lan-cable-f
 import { motion } from "framer-motion";
 
 import InternetPlansSection from "./HomepagePlans";
+import Footer from "@/components/layouts/footer";
 function HomePage() {
   return (
+    <>
     <div className="bg-[#9241C5] min-h-screen text-white">
       <NavBar />
 
-      {/* Hero Section */}
       <section className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 px-6 py-20 items-center">
         <div>
           <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-6">
@@ -23,7 +24,7 @@ function HomePage() {
           <p className="text-lg mb-6">
             Explore our variety of high-speed, dependable net alternatives designed for houses and agencies in Kenya.
           </p>
-          <button className="bg-lime-400 text-gray-100 px-6 py-3 rounded-lg font-semibold hover:bg-lime-500 transition">
+          <button className="bg-lime-400 text-gray-900 px-6 py-3 rounded-lg font-semibold hover:bg-lime-500 transition">
             Get Started
           </button>
         </div>
@@ -109,6 +110,8 @@ function HomePage() {
       </section>
       <InternetPlansSection/>
     </div>
+    <Footer/>
+    </>
   );
 }
 
