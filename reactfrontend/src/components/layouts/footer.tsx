@@ -16,8 +16,8 @@ function Footer() {
           <h3 className="text-xl font-bold mb-4">Quick Links</h3>
           <ul className="space-y-2 text-sm text-gray-200">
             <li><Link to="/" className="hover:text-lime-400 transition">Home</Link></li>
-            <li><Link to="/plans" className="hover:text-lime-400 transition">Internet Plans</Link></li>
-            <li><Link to="/support" className="hover:text-lime-400 transition">Support</Link></li>
+            <li><Link to="/plans" className="hover:text-lime-400 transition">About Us</Link></li>
+            <li><Link to="/support" className="hover:text-lime-400 transition">Our Services</Link></li>
             <li><Link to="/contact" className="hover:text-lime-400 transition">Contact Us</Link></li>
           </ul>
         </div>
@@ -30,7 +30,7 @@ function Footer() {
               <FiPhone className="text-lime-400" /> +254 712 345 678
             </li>
             <li className="flex items-center gap-2">
-              <FiMail className="text-lime-400" /> support@yourcompany.co.ke
+              <FiMail className="text-lime-400" /> support@wifiwave.co.ke
             </li>
             <li className="flex items-center gap-2">
               <FiMapPin className="text-lime-400" /> Nairobi, Kenya

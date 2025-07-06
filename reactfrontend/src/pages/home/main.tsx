@@ -78,7 +78,6 @@ function HomePage() {
       key={idx}
       className="bg-white/10 backdrop-blur-lg rounded-2xl overflow-hidden shadow-lg hover:scale-[1.03] transition-all duration-300 border border-white/20"
     >
-      {/* Image with overlay */}
       <div className="relative h-40">
         <img
           src={image}
@@ -88,7 +87,6 @@ function HomePage() {
         <div className="absolute inset-0 bg-gradient-to-t from-[#9241C5] to-transparent opacity-70" />
       </div>
 
-      {/* Content */}
       <div className="p-5 space-y-3">
         <div className="flex items-center gap-2">
           <span className="bg-lime-400/20 text-lime-400 rounded-full px-3 py-1 text-sm flex items-center gap-1">
