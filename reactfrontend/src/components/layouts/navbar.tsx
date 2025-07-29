@@ -20,7 +20,7 @@ const NavBar = () => {
       <div className="max-w-7xl mx-auto flex justify-between items-center h-20 px-6">
         {/* Logo */}
         <div className="text-white font-bold text-xl tracking-wide">
-          <span className="text-lime-400">WiFi</span>Wave
+          <span className="text-[#E0CA5E]">Inconet</span>Technologies
         </div>
 
         {/* Desktop Nav */}
@@ -29,13 +29,13 @@ const NavBar = () => {
             <li key={link.display}>
               <Link
                 to={link.path}
-                className={`relative transition duration-300 ease-in-out hover:text-lime-400 ${
-                  isActive(link.path) ? "text-lime-400" : ""
+                className={`relative transition duration-300 ease-in-out hover:text-[#E0CA5E] ${
+                  isActive(link.path) ? "text-[#E0CA5E]" : ""
                 }`}
               >
                 {link.display}
                 <span
-                  className={`absolute -bottom-1 left-0 h-[2px] w-full rounded-full bg-lime-400 transform transition-all duration-300 ease-in-out origin-left ${
+                  className={`absolute -bottom-1 left-0 h-[2px] w-full rounded-full bg-[#E0CA5E] transform transition-all duration-300 ease-in-out origin-left ${
                     isActive(link.path) ? "scale-x-100 opacity-100" : "scale-x-0 opacity-0"
                   }`}
                 />

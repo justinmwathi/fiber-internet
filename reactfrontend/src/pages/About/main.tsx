@@ -38,7 +38,7 @@ function About() {
       <NavBar />
 
       {/* Hero Section */}
-      <section className="relative bg-[#9241C5] py-24 px-6 text-white overflow-hidden">
+      <section className="relative bg-[#001117] py-24 px-6 text-white overflow-hidden">
         {/* Decorative Blob */}
         <svg
           className="absolute bottom-0 right-0 w-[500px] opacity-20 rotate-12"
@@ -61,7 +61,7 @@ function About() {
               transition={{ duration: 0.6 }}
               className="text-4xl md:text-5xl font-bold mb-6"
             >
-              About <span className="text-lime-400">WiFiWave</span>
+              About <span className="text-[#E0CA5E]">Inconet</span>
             </motion.h1>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
@@ -73,7 +73,7 @@ function About() {
             </motion.p>
             <motion.button
               whileHover={{ scale: 1.05 }}
-              className="bg-lime-400 text-gray-900 px-6 py-3 rounded-lg font-semibold transition"
+              className="bg-[#E0CA5E] text-gray-900 px-6 py-3 rounded-lg font-semibold transition"
             >
               Learn More
             </motion.button>
@@ -101,7 +101,7 @@ function About() {
           <div>
             <h2 className="text-3xl md:text-4xl font-bold mb-6">Who We Are</h2>
             <p className="text-lg text-gray-200">
-              WiFiWave was founded to bridge Kenya&apos;s digital divide with fast, reliable, and affordable internet. Our mission is to empower people to thrive in the digital age—especially in low-income and rural communities.
+              Inconet was founded with the vision of enhancing connectivity and security for homes and businesses,we combine innovation,professionalism,and reliability to deliver top-tier services to our clients.
             </p>
           </div>
           <div>
@@ -174,7 +174,7 @@ function About() {
               key={label}
               className="bg-white/10 p-6 rounded-xl shadow-lg border border-white/20"
             >
-              <h3 className="text-4xl font-bold text-lime-400">
+              <h3 className="text-4xl font-bold text-[#E0CA5E]">
                 {startCount && <CountUp end={end} duration={2} separator="," />}
               </h3>
               <p className="text-gray-200 mt-2">{label}</p>
