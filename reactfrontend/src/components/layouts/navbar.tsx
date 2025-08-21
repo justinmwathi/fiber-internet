@@ -56,7 +56,7 @@ const NavBar = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden bg-[#9241C5] bg-opacity-90 px-6 py-4">
+        <div className="md:hidden bg-[#001117] bg-opacity-90 px-6 py-4">
           <ul className="flex flex-col gap-6 text-white text-lg">
             {navLinks.map((link) => (
               <li key={link.display}>
@@ -65,7 +65,7 @@ const NavBar = () => {
                   onClick={() => setIsOpen(false)}
                   className={`border-b pb-2 block transition ${
                     isActive(link.path)
-                      ? "border-lime-400 text-lime-400"
+                      ? "border-[#E0CA5E] text-[#E0CA5E]"
                       : "border-white/20"
                   }`}
                 >

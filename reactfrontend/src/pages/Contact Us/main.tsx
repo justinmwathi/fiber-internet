@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import NavBar from "@/components/layouts/navbar";
 import Footer from "@/components/layouts/footer";
-import { FiPhone, FiMapPin, FiMail } from "react-icons/fi";
+import { FiPhone, FiMapPin,} from "react-icons/fi";
 import heroimage from "../../assets/enthusiastic-happy-man-talks-via-mobile-phone-got-call-from-friend-colleague-discusses-good-news-raises-hand-tells-something-emotionally_1_-removebg-preview.png"
 export default function ContactUs() {
   return (
@@ -81,10 +81,7 @@ export default function ContactUs() {
                 <FiPhone className="text-[#E0CA5E] mt-1" />
                 <p>+254 723 994 757</p>
               </div>
-              <div className="flex items-start gap-4">
-                <FiMail className=" text-[#E0CA5E] mt-1" />
-                <p>support@wavewifi.co.ke</p>
-              </div>
+
             </div>
           </motion.div>
 
