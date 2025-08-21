@@ -18,9 +18,15 @@ const NavBar = () => {
   return (
     <nav className="sticky top-0 w-full z-50 bg-white/10 backdrop-blur-md">
       <div className="max-w-7xl mx-auto flex justify-between items-center h-20 px-6">
-        {/* Logo */}
-        <div className="text-white font-bold text-xl tracking-wide">
-          <span className="text-[#E0CA5E]">Inconet</span>Technologies
+        {/* Logo Image */}
+        <div className="flex items-center">
+          <Link to="/">
+            <img
+              src="src/assets/inconet-tech-logo-removebg-preview.png"
+              alt="Inconet Technologies Logo"
+              className="h-10 w-auto object-contain"
+            />
+          </Link>
         </div>
 
         {/* Desktop Nav */}
@@ -81,3 +87,4 @@ const NavBar = () => {
 };
 
 export default NavBar;
+

@@ -51,12 +51,6 @@ function HomePage() {
         designed for houses and agencies in Kenya.
       </motion.p>
 
-      <motion.button
-        className="bg-[#E0CA5E] text-gray-900 px-6 py-3 rounded-lg font-semibold w-fit hover:bg-lime-500 transition"
-        whileHover={{ scale: 1.05 }}
-      >
-        Get Started
-      </motion.button>
     </div>
 
     <motion.div
