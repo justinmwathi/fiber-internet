@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { HiMenu, HiX } from "react-icons/hi";
 import { Link, useLocation } from "react-router-dom";
+import companylogo from "../../assets/inconet-tech-logo-removebg-preview.png"
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,7 +23,7 @@ const NavBar = () => {
         <div className="flex items-center">
           <Link to="/">
             <img
-              src="src/assets/inconet-tech-logo-removebg-preview.png"
+              src={companylogo}
               alt="Inconet Technologies Logo"
               className="h-10 w-auto object-contain"
             />
