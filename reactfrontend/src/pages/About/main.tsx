@@ -10,7 +10,6 @@ import {
   School,
   Briefcase,
   Store,
-  ShieldCheck,
   Wifi,
   Users,
   Star,
