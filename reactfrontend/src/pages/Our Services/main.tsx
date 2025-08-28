@@ -111,9 +111,6 @@ export default function OurServices() {
                     <li key={i}>{feat}</li>
                   ))}
                 </ul>
-                <button className="mt-6 px-5 py-2 bg-[#E0CA5E] text-[#1e1e1e] rounded-lg font-semibold hover:bg-[#CCCC66] transition">
-                  Learn More
-                </button>
               </motion.div>
             ))}
           </div>

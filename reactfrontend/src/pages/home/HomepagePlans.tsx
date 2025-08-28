@@ -68,10 +68,6 @@ function InternetPlansSection() {
                 </li>
               ))}
             </ul>
-
-            <button className="mt-auto bg-[#E0CA5E] text-gray-900 px-4 py-2 rounded-lg font-semibold w-full hover:bg-[#CCCC66] transition">
-              Subscribe Now
-            </button>
           </motion.div>
         ))}
       </div>
