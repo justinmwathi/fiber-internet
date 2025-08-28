@@ -1,0 +1,6 @@
+# Allow all web crawlers to access the entire site
+User-agent: *
+Disallow:
+
+# Link to the sitemap
+Sitemap: https://inconet-technologies.netlify.app/sitemap.xml
