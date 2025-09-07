@@ -1,4 +1,4 @@
-import { FiPhone, FiMail, FiMapPin } from "react-icons/fi";
+import { FiPhone,FiMapPin } from "react-icons/fi";
 import { Link } from "react-router-dom";
 
 function Footer() {
