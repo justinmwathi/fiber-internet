@@ -62,7 +62,7 @@ export default function ContactUs() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.2 }}
               >
-                We're here to answer your questions, support your setup, or help you get started with WaveWiFi.
+                We're here to answer your questions, support your setup, or help you get started with Inconet.
               </motion.p>
             </div>
 
@@ -74,7 +74,7 @@ export default function ContactUs() {
             >
               <img
                 src={heroimage} 
-                alt="Contact WaveWiFi"
+                alt="Contact Inconet"
                 className="w-full max-w-md md:max-w-lg object-contain rounded-xl shadow-2xl"
               />
             </motion.div>

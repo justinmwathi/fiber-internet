@@ -69,7 +69,7 @@ export default function OurServices() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.2 }}
               >
-                Designed for homes, businesses, communities, and organizations. WaveWiFi has a plan that fits you.
+                Designed for homes, businesses, communities, and organizations. Inconet has a plan that fits you.
               </motion.p>
             </div>
 
