@@ -65,7 +65,6 @@ function HomePage() {
                 width={600}
                 height={400}
                 loading="eager"
-                fetchpriority="high"
                 className="w-full max-w-md md:max-w-lg object-contain rounded-xl shadow-2xl"
               />
             </motion.div>
