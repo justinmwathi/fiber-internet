@@ -82,7 +82,7 @@ export default function OurServices() {
             >
               <img
                 src={ourservicesimage}
-                alt="WaveWiFi Services"
+                alt="Inconet Tech Services"
                 className="w-full max-w-md md:max-w-lg object-contain rounded-xl shadow-2xl"
               />
             </motion.div>
