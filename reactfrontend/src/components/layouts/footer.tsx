@@ -29,9 +29,7 @@ function Footer() {
             <li className="flex items-center gap-2">
               <FiPhone className="text-[#E0CA5E]" /> +254 723 994 757
             </li>
-            <li className="flex items-center gap-2">
-              <FiMail className="text-[#E0CA5E]" /> support@wifiwave.co.ke
-            </li>
+            
             <li className="flex items-center gap-2">
               <FiMapPin className="text-[#E0CA5E]" /> Eldoret, Kenya
             </li>
