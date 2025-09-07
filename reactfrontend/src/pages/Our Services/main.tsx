@@ -116,7 +116,7 @@ export default function OurServices() {
           </div>
         </section>
       </div>
-      <Footer />
+      <Footer/>
     </>
   );
 }
