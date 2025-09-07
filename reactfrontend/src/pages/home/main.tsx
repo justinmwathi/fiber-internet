@@ -1,13 +1,13 @@
-import heroimage from "../../assets/front-view-woman-kids-spending-time-home.webp";
+import heroimage from "../../assets/front-view-woman-kids-spending-time-home.png";
 import { FiDollarSign, FiUsers, FiRefreshCw, FiSettings } from "react-icons/fi";
 import { FaHelmetSafety } from "react-icons/fa6";
-import technicians from "../../assets/african-american-couple-home-office-troubleshooting-their-wi-fi-modem.webp";
-import support from "../../assets/teamwork-meeting-with-business-people.webp";
-import affordability from "../../assets/9994025.webp";
-import installation from "../../assets/server-hub-supervisor-scolding-worker-unable-properly-optimize-code.webp";
+import technicians from "../../assets/african-american-couple-home-office-troubleshooting-their-wi-fi-modem.jpg";
+import support from "../../assets/teamwork-meeting-with-business-people.jpg";
+import affordability from "../../assets/9994025.jpg";
+import installation from "../../assets/server-hub-supervisor-scolding-worker-unable-properly-optimize-code.jpg";
 import { motion } from "framer-motion";
 import InternetPlansSection from "./HomepagePlans";
-import turnaround from "../../assets/side-view-kid-relaxing-home.webp";
+import turnaround from "../../assets/side-view-kid-relaxing-home.jpg";
 
 function HomePage() {
   return (
